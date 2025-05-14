@@ -8,7 +8,7 @@ Welcome to this repository! This notebook walks you step-by-step through **fine-
 
 ## 🧠 About XTTS v2
 
-**XTTS v2** is a multilingual and multi-speaker text-to-speech (TTS) model by [Coqui.ai]([https://coqui.ai](https://coqui-tts.readthedocs.io/en/latest/)), which supports voice cloning and zero-shot synthesis across languages.
+**XTTS v2** is a multilingual and multi-speaker text-to-speech (TTS) model by [Coqui.ai](https://coqui-tts.readthedocs.io/en/latest/), which supports voice cloning and zero-shot synthesis across languages.
 
 ---
 
@@ -18,12 +18,12 @@ This notebook supports datasets in **LJSpeech format**, which means:
 
 - Audio files in `wavs/` directory (`.wav` format).
 - A metadata file `metadata.csv` with format:  <audio_filename>|<transcription>|<normalized_transcription>
-
+``` 
 The expected dataset structure:
 ├── dataset_name/
 │   ├── wavs/
 │   │   ├── sample1.wav
 │   │   ├── sample2.wav
 │   └── metadata.csv
-
+``` 
 
