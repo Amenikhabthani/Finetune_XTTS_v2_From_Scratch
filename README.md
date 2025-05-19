@@ -17,7 +17,7 @@ Welcome to this repository! This notebook walks you step-by-step through **fine-
 This notebook supports datasets in **LJSpeech format**, which means:
 
 - Audio files in `wavs/` directory (`.wav` format).
-- A metadata file `metadata.csv` with format:  <audio_filename>|<transcription>|<normalized_transcription>
+- A metadata file `metadata.csv` with format:  <audio_filename>|<transcription>|<normalized_transcription> 
 ``` 
 The expected dataset structure:
 ├── dataset_name/
